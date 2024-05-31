@@ -8,7 +8,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/libraries/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
@@ -32,8 +32,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+              src="https://scontent.cdninstagram.com/v/t51.2885-19/412632388_274616385595815_1920225778416503649_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=Ni9YubkMbIoQ7kNvgFSAiYD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AYDiGdI0nuMIrTyi2PLZGMX6qPiyuhR0-a2bjdENAt2GHg&oe=665F634D&_nc_sid=10d13b"
+              alt="Kibet Elvis"
               width="192"
               height="192"
               quality="95"
@@ -63,11 +63,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
+        <span className="font-bold">Hello, I&apos;m Elvis.</span> I&apos;m a{" "}
+        <span className="font-bold">full-stack developer(Backend)</span> with{" "}
+        <span className="font-bold">2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">Python, JavaScript (Next.js, Django, React, Flask)</span>.
       </motion.h1>
 
       <motion.div
