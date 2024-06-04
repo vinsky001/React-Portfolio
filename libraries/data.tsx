@@ -4,8 +4,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import shop from "@/public/shop.webp";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import rmtdevImg from "@/public/rmtdev.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -67,14 +67,14 @@ export const projectsData = [
     description:
       "I worked as a Full-stack developer on this Real Estate app.",
     tags: ["React", "Python", "Next.js", "Tailwind", "Redux", "PostgreSQL", "Docker", "Django","Nginx", "Celery", "Flower"],
-    imageUrl: rmtdevImg,
+    imageUrl: "", // Provide a value for imageUrl property
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "", // Provide a value for imageUrl property
   },
 ] as const;
 
