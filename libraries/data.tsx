@@ -76,6 +76,13 @@ export const projectsData = [
     tags: ["React", "Node js", "MongoDB", "Tailwind", "Framer"],
     imageUrl: "", 
   },
+  {
+    title: "AirBnB clone ",
+    description:
+      "Airbnb clone is a comprehensive web application with functionalities for property listing, searching, booking, user authentication, reviews, and more",
+    tags: ["HTML", "Flask", "MongoDB", "Tailwind", "CSS"],
+    imageUrl: "", 
+  },
 ] as const;
 
 export const skillsData = [
