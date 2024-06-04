@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import shop from "@/public/shop.webp";
 // import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import devkonnect from "@/public/devkonnect.png";
 
 export const links = [
   {
@@ -70,11 +70,11 @@ export const projectsData = [
     imageUrl: "", // Provide a value for imageUrl property
   },
   {
-    title: "Word Analytics",
+    title: "DevsKonnekt",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "", // Provide a value for imageUrl property
+      "DevsKonnekt is a platform where software developers can connect, network, share ideas, and find new opportunities. DevsKonnekt aims to create a vibrant and supportive community of developers who can learn, grow, and have fun together",
+    tags: ["React", "Node js", "MongoDB", "Tailwind", "Framer"],
+    imageUrl: "", 
   },
 ] as const;
 
