@@ -58,14 +58,14 @@ export const projectsData = [
   {
     title: "ShopZetu VMS",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "ShopZetu Vendor Management System, a cutting-edge solution designed to streamline the way small brands and vendors manage their operations, access crucial metrics and data about their business perfomance on shopify in terms of sales/Purchases .",
     tags: ["React", "Python(flask)", "MongoDB", "Tailwind", ],
     imageUrl: shop,
   },
   {
     title: "Real-Estate WebApp",
     description:
-      "I worked as a Full-stack developer on this Real Estate app.",
+      "A real estate web app centralizes and simplifies the property buying, selling, and renting processes by providing comprehensive information, enhancing accessibility, and improving efficiency for all stakeholders involved.",
     tags: ["React", "Python", "Next.js", "Tailwind", "Redux", "PostgreSQL", "Docker", "Django","Nginx", "Celery", "Flower"],
     imageUrl: "", // Provide a value for imageUrl property
   },
@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: "AirBnB clone ",
     description:
-      "Airbnb clone is a comprehensive web application with functionalities for property listing, searching, booking, user authentication, reviews, and more",
+      "Airbnb clone is a comprehensive web application with functionalities for property listing, searching, booking, user authentication, reviews, and more. Problem solved:  This project solves problems related to the availability, variety, and affordability of accommodations for travelers while providing a platform for property owners to generate income from their spaces. ",
     tags: ["HTML", "Flask", "MongoDB", "Tailwind", "CSS"],
     imageUrl: "", 
   },
