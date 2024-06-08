@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Backend-End Developer",
     location: "Nairobi, Kenya",
     description:
-      "I worked as a back-end(Fullstack) developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a back-end(Fullstack) developer for 1 year .",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
@@ -81,6 +81,13 @@ export const projectsData = [
     description:
       "Airbnb clone is a comprehensive web application with functionalities for property listing, searching, booking, user authentication, reviews, and more. Problem solved:  This project solves problems related to the availability, variety, and affordability of accommodations for travelers while providing a platform for property owners to generate income from their spaces. ",
     tags: ["HTML", "Flask", "MongoDB", "Tailwind", "CSS"],
+    imageUrl: "", 
+  },
+  {
+    title: "Virtal Health Portal ",
+    description:
+      "This  project provides a RESTful interface for managing patients and their diagnoses in a medical clinic. It includes endpoints for user registration, login, CRUD operations on patients, and CRUD operations on diagnoses. The API is built using Flask and implements JWT-based authentication to protect sensitive data. ",
+    tags: ["ReactJs", "Node js", "PostgreSQL", "Tailwind", "Python"],
     imageUrl: "", 
   },
 ] as const;
