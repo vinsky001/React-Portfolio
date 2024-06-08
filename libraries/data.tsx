@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Backend-End Developer",
     location: "Nairobi, Kenya",
     description:
-      "I worked as a back-end(Fullstack) developer for 1 year .",
+      "I worked as a back-end(Fullstack) developer for 2 years .",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
