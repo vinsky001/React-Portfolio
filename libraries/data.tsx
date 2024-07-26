@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Backend-End Developer - Intern",
+    title: "Backend-End Developer - ",
     location: "Nairobi, Kenya",
     description:
       "I worked as a back-end(Fullstack) developer for 2 years .",
